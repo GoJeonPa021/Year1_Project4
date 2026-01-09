@@ -6,8 +6,6 @@ This project explores the application of **Cellular Automata (CA)** models to ur
 ## Project Overview
 The simulation evaluates dynamic traffic flow using a simplified cellular automata model implemented in Python. The primary goal is to determine how vehicle density and the ratio of cars to buses affect the average speed and passenger throughput of a road network.
 
-![Circular Road Model](https://raw.githubusercontent.com/user/repo/main/image_1.png)
-*Figure 1: Circular road model with periodic boundary conditions.*
 
 ## Key Features
 * **Discrete Grid Modeling**: The road is divided into cells that are either empty (0) or occupied by a car (1) or bus (2).
@@ -17,8 +15,6 @@ The simulation evaluates dynamic traffic flow using a simplified cellular automa
 * **Periodic Boundaries**: Simulations use a circular road model where vehicles exiting the "end" wrap around to the "start" to maintain a constant number of vehicles.
 * **Passenger Efficiency Analysis**: Investigates the optimal vehicle mix to transport 500 passengers across a 100-cell space.
 
-![Simulation Logic](https://raw.githubusercontent.com/user/repo/main/image_2.png)
-*Figure 2: Cellular automata traffic update rules for cars and buses.*
 
 ## Movement Rules
 The simulation follows a specific iterative ruleset based on established CA traffic models:
